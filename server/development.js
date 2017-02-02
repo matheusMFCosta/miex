@@ -18,7 +18,6 @@ var http = require('http');
 var https = require('https');
 var privateKey  = fs.readFileSync('server/server.key', 'utf8');
 var certificate = fs.readFileSync('server/server.crt', 'utf8');
-var fetch =require('isomorphic-fetch');
 
 var credentials = {
   key: privateKey,
