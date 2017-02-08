@@ -74,7 +74,7 @@ app.use('*', function(req, res) {
 });
 
 
-http.createServer(app).listen(80);
+//http.createServer(app).listen(80);
 
 https.createServer(credentials, app).listen(443);
 
