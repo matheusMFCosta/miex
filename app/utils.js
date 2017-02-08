@@ -15,3 +15,4 @@ module.exports = function getContent (url) {
     request.on('error', (err) => reject(err))
     })
 }
+
