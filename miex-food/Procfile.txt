@@ -1,0 +1,2 @@
+web:     sudo cross-env NODE_ENV=development babel-node server/development
+worker:  sudo cross-env NODE_ENV=development babel-node server/development 

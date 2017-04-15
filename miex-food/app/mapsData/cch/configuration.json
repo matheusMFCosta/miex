@@ -1,0 +1,32 @@
+{ 
+    "pointsOfInterest":[
+      {
+        "id":"ALGO NO CCH",
+        "buildingReference":"cch",
+        "adjacentes":{ "L-CCH1": 1},
+        "description":"cowowo",
+        "mapReference":"cch1",
+        "type":"path",
+        "x": 400,
+        "y": 400
+      }
+    ],
+    "maps":[{
+      "id":"cch1",
+      "buildingReference":"cch",
+      "path":"https://miex-food.herokuapp.com/cch/images/cch1",
+      "floorReference":1,
+      "height": 540,
+      "width": 720 
+    },
+    {
+      "id":"cch0",
+      "path":"https://miex-food.herokuapp.com/cch/images/cch0",
+      "buildingReference":"cch",
+      "height": 540 ,
+      "width":720
+    }
+    ],
+    "buildPointsPath":{
+    }
+}

@@ -1,0 +1,173 @@
+  { 
+    "pointsOfInterest":[{
+          "id":"lala",
+          "description":"algum Teste Qualquer",
+          "adjacentes":{ "B":1, "I":1 },
+          "mapReference":"graph2",
+          "x": 250,
+          "y": 420
+    },
+    {
+          "id":"lili",
+          "description":"outros muito louco mesmo",
+          "adjacentes":{ "k":1, "L":1 },
+          "mapReference":"graph3",
+          "x": 200,
+          "y": 110
+    }],
+    "maps":[{
+      "id":"graph2",
+      "path":"https://miex-food.herokuapp.com/teste/images/graph2",
+      "height":600,
+      "width":800
+    },
+    {
+      "id":"graph3",
+      "path":"https://miex-food.herokuapp.com/teste/images/graph3",
+      "height":600,
+      "width":800
+    }
+    ],
+    "pathPoints": [
+        {
+          "id":"A",
+          "adjacentes":{ "B":2, "H":3 },
+          "mapReference":"graph2",
+          "x": 50,
+          "y": 110
+        },
+        {
+          "id":"B",
+          "adjacentes":{ "A":2, "I":3, "C":3 },
+          "mapReference":"graph2",
+          "x": 250,
+          "y": 110
+        },
+        {
+          "id":"C",
+          "adjacentes":{ "B":3, "J":3 },
+          "mapReference":"graph2",
+          "x": 525,
+          "y": 110
+        },
+        {
+          "id":"D",
+          "adjacentes":{ "J":2, "E":3, "G":2 },
+          "mapReference":"graph2",
+          "x": 525,
+          "y": 540
+        },
+        {
+          "id":"E",
+          "adjacentes":{ "F":2, "I":2 , "D":3 },
+          "mapReference":"graph2",
+          "x": 250 ,
+          "y": 549
+        },
+        {
+          "id":"F",
+          "adjacentes":{ "H":2, "E":2,"Q":1},
+          "mapReference":"graph2",
+          "x": 50,
+          "y": 540
+        },
+        {
+          "id":"G",
+          "adjacentes":{ "D":2 },
+          "mapReference":"graph2",
+          "x": 731,
+          "y": 540
+        },
+        {
+          "id":"H",
+          "adjacentes":{ "A":3, "I":2, "F":2 },
+          "mapReference":"graph2",
+          "x": 50,
+          "y": 325
+        },
+        {
+          "id":"I",
+          "adjacentes":{ "H":2, "B":3, "J":3, "E":2 },
+          "mapReference":"graph2",
+          "x": 250,
+          "y": 325
+        },
+        {
+          "id":"J",
+          "adjacentes":{ "C":3, "I":3, "D":2},
+          "mapReference":"graph2",
+          "x": 525,
+          "y": 325
+        },
+        {
+          "id":"K",
+          "adjacentes":{ "L":2, "R":3 },
+          "mapReference":"graph3",
+          "x": 50,
+          "y": 110
+        },
+        {
+          "id":"L",
+          "adjacentes":{ "K":2, "T":3, "M":3 },
+          "mapReference":"graph3",
+          "x": 250,
+          "y": 110
+        },
+        {
+          "id":"M",
+          "adjacentes":{ "L":3, "U":3 },
+          "mapReference":"graph3",
+          "x": 525,
+          "y": 110
+        },
+        {
+          "id":"N",
+          "adjacentes":{ "U":2, "O":3, "Q":2 },
+          "mapReference":"graph3",
+          "x": 525,
+          "y": 540
+        },
+        {
+          "id":"O",
+          "adjacentes":{ "P":2, "T":2 , "N":3 },
+          "mapReference":"graph3",
+          "x": 250 ,
+          "y": 549
+        },
+        {
+          "id":"P",
+          "adjacentes":{ "R":2, "O":2},
+          "mapReference":"graph3",
+          "x": 50,
+          "y": 540
+        },
+        {
+          "id":"Q",
+          "adjacentes":{ "N":2,"F":1 },
+          "mapReference":"graph3",
+          "x": 731,
+          "y": 540
+        },
+        {
+          "id":"R",
+          "adjacentes":{ "K":3, "T":2, "P":2 },
+          "mapReference":"graph3",
+          "x": 50,
+          "y": 325
+        },
+        {
+          "id":"T",
+          "adjacentes":{ "R":2, "L":3, "U":3, "O":2 },
+          "mapReference":"graph3",
+          "x": 250,
+          "y": 325
+        },
+        {
+          "id":"U",
+          "adjacentes":{ "M":3, "T":3, "N":2},
+          "mapReference":"graph3",
+          "x": 525,
+          "y": 325
+        }
+      ]
+    }

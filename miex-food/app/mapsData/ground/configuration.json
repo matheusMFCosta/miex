@@ -1,0 +1,14 @@
+{ 
+    "pointsOfInterest":[],
+    "maps":[{
+      "id":"ground1",
+      "buildingReference":"ground",
+      "path":"https://miex-food.herokuapp.com/ground/images/ground1",
+      "floorReference":1,
+      "height":540,
+      "width":864 
+    }
+    ],
+    "buildPointsPath":{
+    }
+}

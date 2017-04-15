@@ -1,0 +1,104 @@
+{
+  "pathPoints":[
+      {
+        "id":"A-CCH0",
+        "buildingReference":"cch",
+        "adjacentes":{ "B-CCH0":1 },
+        "mapReference":"cch0",
+        "type":"transition",
+        "transitionAccess":{"cch1":{"K-CCH1":1}},
+        "x": 315,
+        "y": 260
+      },
+      {
+        "id":"B-CCH0",
+        "buildingReference":"cch",
+        "adjacentes":{ "A-CCH0":1,"C-CCH0":1,"H-CCH0":2 },
+        "mapReference":"cch0",
+        "type":"path",
+        "x": 245,
+        "y": 260
+      },
+      {
+        "id":"C-CCH0",
+        "buildingReference":"cch",
+        "adjacentes":{ "B-CCH0":1,"J-CCH0":1,"D-CCH0":2 },
+        "mapReference":"cch0",
+        "type":"path",
+        "x": 245,
+        "y": 200
+      },
+      {
+        "id":"D-CCH0",
+        "buildingReference":"cch",
+        "adjacentes":{ "C-CCH0":1,"E-CCH0":2,"K-CCH0":2 },
+        "mapReference":"cch0",
+        "type":"path",
+        "x": 375,
+        "y": 200
+      },
+      {
+        "id":"E-CCH0",
+        "buildingReference":"cch",
+        "adjacentes":{ "D-CCH0":2,"F-CCH0":2 },
+        "mapReference":"cch0",
+        "type":"path",
+        "x": 560,
+        "y": 200
+      },
+      {
+        "id":"F-CCH0",
+        "buildingReference":"cch",
+        "adjacentes":{ "E-CCH0":2,"G-CCH0":4 },
+        "mapReference":"cch0",
+        "type":"path",
+        "x": 560,
+        "y": 330
+      },
+      {
+        "id":"G-CCH0",
+        "buildingReference":"cch",
+        "adjacentes":{ "F-CCH0":4,"H-CCH0":1 },
+        "mapReference":"cch0",
+        "type":"path",
+        "x": 270,
+        "y": 330
+      },
+      {
+        "id":"H-CCH0",
+        "buildingReference":"cch",
+        "adjacentes":{ "B-CCH0":2,"G-CCH0":1,"I-CCH0":1 },
+        "mapReference":"cch0",
+        "type":"path",
+        "x": 245,
+        "y": 330
+      },
+      {
+        "id":"I-CCH0",
+        "buildingReference":"cch",
+        "adjacentes":{ "H-CCH0":1,"J-CCH0":2},
+        "mapReference":"cch0",
+        "type":"path",
+        "x": 140,
+        "y": 330
+      },
+      {
+        "id":"J-CCH0",
+        "buildingReference":"cch",
+        "adjacentes":{ "I-CCH0":2,"C-CCH0":1},
+        "mapReference":"cch0",
+        "type":"path",
+        "x": 140,
+        "y": 200
+      },
+      {
+        "id":"K-CCH0",
+        "buildingReference":"cch",
+        "adjacentes":{ "D-CCH0":2},
+        "mapReference":"cch0",
+        "type":"path",
+        "x": 375,
+        "y": 80
+      }
+    ]                
+}

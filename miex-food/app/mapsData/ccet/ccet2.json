@@ -1,0 +1,232 @@
+{ 
+    "pathPoints":[
+      {
+        "id": "A-CCET2",
+        "buildingReference":"ccet",
+        "adjacentes": {
+          "B-CCET2": 1,
+          "F-CCET2": 2,
+          "S-CCET2":1
+        },
+        "mapReference": "ccet2",
+        "type":"transition",
+        "transitionAccess":{"ccet1":{"R-CCET1":1}},
+        "x": 290,
+        "y": 380
+      },
+      {
+        "id": "B-CCET2",
+        "buildingReference":"ccet",
+        "adjacentes": {
+          "A-CCET2": 1,
+          "C-CCET2": 2
+        },
+        "mapReference": "ccet2",
+        "type": "path",
+        "x": 170,
+        "y": 380
+      },
+      {
+        "id": "C-CCET2",
+        "buildingReference":"ccet",
+        "adjacentes": {
+          "B-CCET2": 2,
+          "D-CCET2": 1
+        },
+        "mapReference": "ccet2",
+        "type": "path",
+        "x": 88,
+        "y": 380
+      },
+      {
+        "id": "D-CCET2",
+        "buildingReference":"ccet",
+        "adjacentes": {
+          "C-CCET2": 1,
+          "E-CCET2": 1
+        },
+        "mapReference": "ccet2",
+        "type": "path",
+        "x": 88,
+        "y": 282
+      },
+      {
+        "id": "E-CCET2",
+        "buildingReference":"ccet",
+        "adjacentes": {
+          "D-CCET2": 1
+        },
+        "mapReference": "ccet2",
+        "type": "path",
+        "x": 88,
+        "y": 180
+      },
+      {
+        "id": "F-CCET2",
+        "buildingReference":"ccet",
+        "adjacentes": {
+          "A-CCET2": 2,
+          "G-CCET2": 2
+        },
+        "mapReference": "ccet2",
+        "type": "path",
+        "x": 365,
+        "y": 380
+      },
+      {
+        "id": "G-CCET2",
+        "buildingReference":"ccet",
+        "adjacentes": {
+          "H-CCET2": 2,
+          "P-CCET2": 1
+        },
+        "mapReference": "ccet2",
+        "type": "path",
+        "x": 470,
+        "y": 380
+      },
+      {
+        "id": "H-CCET2",
+        "buildingReference":"ccet",
+        "adjacentes": {
+          "I-CCET2": 2,
+          "G-CCET2": 2
+        },
+        "mapReference": "ccet2",
+        "type": "path",
+        "x": 470,
+        "y": 225
+      },
+      {
+        "id": "I-CCET2",
+        "buildingReference":"ccet",
+        "adjacentes": {
+          "J-CCET2": 1,
+          "H-CCET2": 2
+        },
+        "mapReference": "ccet2",
+        "type": "path",
+        "x": 470,
+        "y": 107
+      },
+      {
+        "id": "J-CCET2",
+        "buildingReference":"ccet",
+        "adjacentes": {
+          "K-CCET2": 1,
+          "I-CCET2": 1
+        },
+        "mapReference": "ccet2",
+        "type": "path",
+        "x": 470,
+        "y": 48
+      },
+      {
+        "id": "K-CCET2",
+        "adjacentes": {
+          "J-CCET2": 1,
+          "L-CCET2": 1
+        },
+        "mapReference": "ccet2",
+        "type": "path",
+        "x": 570,
+        "y": 48
+      },
+      {
+        "id": "L-CCET2",
+        "buildingReference":"ccet",
+        "adjacentes": {
+          "K-CCET2": 1,
+          "M-CCET2": 1
+        },
+        "mapReference": "ccet2",
+        "type": "path",
+        "x": 570,
+        "y": 125
+      },
+      {
+        "id": "M-CCET2",
+        "buildingReference":"ccet",
+        "adjacentes": {
+          "L-CCET2": 1,
+          "N-CCET2": 2
+        },
+        "mapReference": "ccet2",
+        "type": "path",
+        "x": 570,
+        "y": 200
+      },
+      {
+        "id": "N-CCET2",
+        "buildingReference":"ccet",
+        "adjacentes": {
+          "M-CCET2": 2,
+          "O-CCET2": 2
+        },
+        "mapReference": "ccet2",
+        "type": "path",
+        "x": 570,
+        "y": 290
+      },
+      {
+        "id": "O-CCET2",
+        "buildingReference":"ccet",
+        "adjacentes": {
+          "N-CCET2": 2,
+          "P-CCET2": 2
+        },
+        "mapReference": "ccet2",
+        "type": "path",
+        "x": 560,
+        "y": 420
+      },
+      {
+        "id": "P-CCET2",
+        "buildingReference":"ccet",
+        "adjacentes": {
+          "G-CCET2": 1,
+          "O-CCET2": 2,
+          "Q-CCET2": 1
+        },
+        "mapReference": "ccet2",
+        "type": "path",
+        "x": 480,
+        "y": 430
+      },
+      {
+        "id": "Q-CCET2",
+        "buildingReference":"ccet",
+        "adjacentes": {
+          "P-CCET2": 1,
+          "R-CCET2": 1
+        },
+        "mapReference": "ccet2",
+        "type": "path",
+        "x": 480,
+        "y": 480
+      },
+      {
+        "id": "R-CCET2",
+        "buildingReference":"ccet",
+        "adjacentes": {
+          "Q-CCET2": 1
+        },
+        "mapReference": "ccet2",
+        "type":"transition",
+        "transitionAccess":{"ccet1":{"L-CCET1":1}},
+        "x": 547,
+        "y": 472
+      },
+      {
+        "id": "S-CCET2",
+        "buildingReference":"ccet",
+        "adjacentes": {
+          "A-CCET2": 1
+        },
+        "mapReference": "ccet2",
+        "type": "path",
+        "x": 290,
+        "y": 320
+      }
+    ]
+}

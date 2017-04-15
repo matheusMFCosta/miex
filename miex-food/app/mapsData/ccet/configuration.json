@@ -1,0 +1,65 @@
+{ 
+    "pointsOfInterest":[
+        {
+            "id":"Xerox",
+            "description":"Central",
+            "adjacentes":{ "A-CCET1":1,"B-CCET1":2 },
+            "mapReference":"ccet1",
+            "buildingReference":"ccet",
+            "x": 280,
+            "y": 360
+        },
+        {
+            "id":"Sala dos Profesores 1",
+            "description":"Geiza Hamazaki",
+            "adjacentes":{ "H-CCET1":1 },
+            "mapReference":"ccet1",
+            "buildingReference":"ccet",
+            "x": 565,
+            "y": 125
+        },
+        {
+            "id":"Sala 204N",
+            "description":"",
+            "adjacentes":{ "D-CCET2":1 },
+            "mapReference":"ccet2",
+            "buildingReference":"ccet",
+            "x": 70,
+            "y": 200
+        }
+    ],
+    "maps":[{
+      "id":"ccet1",
+      "buildingReference":"ccet",
+      "path":"https://miex-food.herokuapp.com/ccet/images/ccet1",
+      "floorReference":1,
+      "height":525,
+      "width":683
+    },
+    {
+      "id":"ccet2",
+      "path":"https://miex-food.herokuapp.com/ccet/images/ccet2",
+      "buildingReference":"ccet",
+      "height":594,
+      "width":683
+    }
+    ],
+    "buildPointsPath":{
+        "ccet2":{   
+            "adjacentes":{"ccet1":["ccet1-ccet2-1"]}
+        },
+        "ccet1":{
+            "adjacentes":{"campus":["algumPonto"],"ccet2":["ccet1-ccet2-1"]}
+        },
+        "campus":{
+            "adjacentes":{"ccet":["algumPonto"],"cch":["outroPonto"]}
+        },
+        "cch2":{
+            "adjacentes":{"cch1":["cch1-cch2-1"]}
+        },
+        "cch1":{
+            "adjacentes":{"campus":["outroPonto"],"cch2":["cch1-cch2-1"]}
+        }
+
+    }
+}
